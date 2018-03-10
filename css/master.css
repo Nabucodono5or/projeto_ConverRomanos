@@ -8,6 +8,7 @@ h1 {
 }
 
 #sessao {
+  margin: 90px auto 90px auto;
   border: 1px solid #000000;
   box-shadow: 2px 2px;
 }
