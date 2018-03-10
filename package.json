@@ -1,0 +1,19 @@
+{
+  "name": "converte_romanos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nabucodono5or/projeto_ConverRomanos.git"
+  },
+  "author": "Jefferson Abreu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nabucodono5or/projeto_ConverRomanos/issues"
+  },
+  "homepage": "https://github.com/Nabucodono5or/projeto_ConverRomanos#readme"
+}
