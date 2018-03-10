@@ -1,14 +1,39 @@
 body {
   font-family: Helvetica;
   font-size: 1em;
+  padding: 30px;
 }
 
 h1 {
+  font-family: 'Bevan', cursive;
   font-size: 4em;
+  width: 900px;
+  margin: 10px auto 10px auto;
 }
 
 #sessao {
+  background-color: #55efc4;
   margin: 90px auto 90px auto;
   border: 1px solid #000000;
   box-shadow: 2px 2px;
+  width: 900px;
+}
+
+.texto {
+  margin: 10px auto 10px 30px;
+  width: 300px;
+}
+
+.centro {
+  margin: 60px auto 30px auto;
+  width: 500px;
+}
+
+#resultado {
+  margin-top: 30px;
+  font-size: 3em;
+}
+
+hr {
+
 }
