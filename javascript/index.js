@@ -62,7 +62,7 @@
       i++;
     }
 
-    return convertido;
+    return Math.abs(convertido);
   }
 
   $ctrl.onClickResultado = function(){
