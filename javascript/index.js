@@ -1,4 +1,7 @@
-(function() {
+(function(titulo) {
+
+  console.log(titulo);
+  var resultadoFinal;
 
   // converte simbolos para valores numéricos correspondente
   // Bascamente I, V, X, L, C, D e M
@@ -32,18 +35,38 @@
   }
 
 
-  function avaliaValores(ant, prox){
-    // compara com a posição anterior decide se soma ou subtraia
+  // compara com a posição a  return resultadoFinal;
+  // anterior decide se soma ou subtraia
+  function somaValores(ant, prox) {
 
+    if (ant >= prox) {
+      return true;
+    }
+    return false;
   }
 
+
+  // percorre a string e usa outras funções para avaliar cada caracter
   function percorrerResultado(str) {
+    str = str.toUpperCase();
+
     var i = 0;
-    do {
-      /*
-      usa a função avaliaValores para obter um resultado de soma ou subtração
-      */
-    } while (i < str.length);
+    var convertido = converteRomanos(str[i]);
+    i++;
+
+    while (i < str.length) {
+      if (somaValores(converteRomanos(str[i - 1]), converteRomanos(str[i]))) {
+        convertido += converteRomanos(str[i]);
+      } else {
+        convertido -= converteRomanos(str[i]);
+      }
+      i++;
+    }
+
+    return convertido;
   }
 
-})();
+  // retorna o resultado
+  console.log(percorrerResultado("CCCXIII"));
+
+})('resposta');
