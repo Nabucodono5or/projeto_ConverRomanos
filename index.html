@@ -20,20 +20,16 @@
 
     <section id="sessao">
       <div class="texto">
-        <p class="descricao">O sistema de numeração romana (algarismos romanos ou números romanos)
-          desenvolveu-se na Roma Antiga, e foi utilizado em todo o Império Romano.
-          É composto por sete letras maiúsculas do alfabeto latino: I, V, X, L, C, D e M.
+        <p class="descricao">O sistema de numeração romana (algarismos romanos ou números romanos) desenvolveu-se na Roma Antiga, e foi utilizado em todo o Império Romano. É composto por sete letras maiúsculas do alfabeto latino: I, V, X, L, C, D e M.
         </p>
         <p class="descricao">
-          O conversor possibilita conversão de somente numeros romanos,
-          então mesmo que haja entradas como "CC32" ou "ccx5" o resultado ainda
-          será somente do que consta como <em>numeros romanos</em>.
+          O conversor possibilita conversão de somente numeros romanos, então mesmo que haja entradas como "CC32" ou "ccx5" o resultado ainda será somente do que consta como <em>numeros romanos</em>.
         </p>
 
       </div>
       <div class="centro">
         <input id="entrada" type="text" name="valores" value="" placeholder="Entre com valores inteiro/romanos" maxlength="60" size="60">
-
+        <button type="button" id="btnResultado" name="button" onclick="app.c1.$ctrl.onClickResultado()">Converter</button>
         <h2 id="resultado">Resultado</h2>
       </div>
     </section>
@@ -41,6 +37,18 @@
     <hr id="linha">
     <footer> Jefferson Abreu Pereira Silva </footer>
   </div>
-</body>
 
+  <script type="text/javascript" charset="utf-8">
+    var app = {};
+    app.getComponente = function(nome) {
+      if (!app[nome]) {
+        app[nome] = { $ctrl: {} };
+      }
+      return app[nome];
+    };
+  </script>
+
+  <script src="javascript/index.js"></script>
+
+</body>
 </html>

@@ -33,4 +33,19 @@ h1 {
 #resultado {
   margin-top: 30px;
   font-size: 3em;
+  color: #82589F;
+}
+
+#btnResultado {
+  border-radius: 1000px;
+  border: 0;
+  padding: 10px 30px 10px 30px;
+  margin: 10px 0px;
+  background-color: #3B3B98;
+  color: #ffffff;
+}
+
+#btnResultado:hover {
+  background-color: #182C61;
+  cursor: pointer;
 }

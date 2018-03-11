@@ -1,7 +1,7 @@
-(function(titulo) {
+(function() {
 
-  console.log(titulo);
-  var resultadoFinal;
+  let c1 = app.getComponente('c1');
+  let $ctrl = c1.$ctrl;
 
   // converte simbolos para valores numéricos correspondente
   // Bascamente I, V, X, L, C, D e M
@@ -35,8 +35,7 @@
   }
 
 
-  // compara com a posição a  return resultadoFinal;
-  // anterior decide se soma ou subtraia
+  // compara com a posição a anterior decide se soma ou subtraia
   function somaValores(ant, prox) {
 
     if (ant >= prox) {
@@ -66,7 +65,14 @@
     return convertido;
   }
 
-  // retorna o resultado
-  console.log(percorrerResultado("xxx"));
+  $ctrl.onClickResultado = function(){
+    console.log('clicado');
 
-})('resposta');
+    document.getElementById('resultado').innerHTML = percorrerResultado(document.getElementById('entrada').value);
+    console.log('clicado');
+  }
+
+  // retorna o resultado
+  // console.log(percorrerResultado("xxx"));
+
+})();
