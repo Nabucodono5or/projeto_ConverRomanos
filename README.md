@@ -1,12 +1,12 @@
 # projeto_ConverRomanos
 Aplicação simples para conversão de simbolos romanos para valores inteiros.
 
-# Informções
+# Informações
  * Versão 1.0.0
 
-# Valores de entradas
+# Valores de entrada
 Basicamente você pode entrar com os seguintes simbolos romanos:
-*I, V, X, L, C, D e M*
+*I, V, X, L, C, D e M* .
 Esses serão os únicos simbolos lidos pela entrada da aplicaçao, independente
 do que você insira entre eles.
 
@@ -17,5 +17,7 @@ do que você insira entre eles.
 ```
 Os valores desta versão estão limitados ao alcance 1 a 3999.
 
+# Imagens
+![imagem da aplicação](imagens/imagem_app2.png)
 # Copyright
 Projeto realizado sob a [MIT License](https://github.com/Nabucodono5or/projeto_ConverRomanos/blob/master/LICENSE).
