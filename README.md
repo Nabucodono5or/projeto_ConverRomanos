@@ -4,6 +4,7 @@ Aplicação web simples para conversão de simbolos romanos para valores inteiro
 # Informações
  * Versão 1.0.0
  * Para executar acesse index.html
+ * A aplicação se utiliza de fontes google da internet (cuidado para não executar offline e perder as fontes).
 
 # Valores de entrada
 Basicamente você pode entrar com os seguintes simbolos romanos:
