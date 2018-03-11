@@ -67,6 +67,6 @@
   }
 
   // retorna o resultado
-  console.log(percorrerResultado("CCCXIII"));
+  console.log(percorrerResultado("xxx"));
 
 })('resposta');
