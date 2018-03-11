@@ -72,7 +72,4 @@
     console.log('clicado');
   }
 
-  // retorna o resultado
-  // console.log(percorrerResultado("xxx"));
-
 })();
