@@ -1,8 +1,9 @@
 # projeto_ConverRomanos
-Aplicação simples para conversão de simbolos romanos para valores inteiros.
+Aplicação web simples para conversão de simbolos romanos para valores inteiros.
 
 # Informações
  * Versão 1.0.0
+ * Para executar acesse index.html
 
 # Valores de entrada
 Basicamente você pode entrar com os seguintes simbolos romanos:
